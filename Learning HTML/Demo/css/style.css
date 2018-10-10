@@ -1,0 +1,62 @@
+body{
+	background: #e3e3e3;
+	font-family: sans-serif; 
+	font-weight: bold;
+}
+
+.wrap{
+	min-width: 600px;
+	width: 80%;
+	margin: auto;
+	background: white;
+	overflow: hidden;
+}
+
+h1{
+	height: 60px;
+	text-align: center;
+}
+
+.navigation {
+	text-align: center;
+}
+
+.navigation ul li {
+	display: inline;
+	padding-right: 20px;
+}
+
+ul a{
+	text-decoration: none;
+	color: black;
+}
+
+ul a:hover{
+	text-decoration: underline;
+	color:orange;
+}
+
+
+aside{
+	background: brown;
+	float: left;
+	width: 20%;
+}
+
+aside ul{
+	padding-left: 22px;
+}
+
+.content{
+	background: grey;
+	font-size: 22px;
+	font-weight: normal;
+	float: right;
+	width: 78%;
+}
+
+footer{
+	clear: both;
+}
+
+

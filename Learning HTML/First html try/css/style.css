@@ -1,0 +1,17 @@
+a {
+	color: blue; 
+	text-decoration: none;
+}
+
+h1 {
+	color: red;
+	font-family: sans-serif; 
+}
+
+div {
+	width: 500px;
+	background: green;
+	margin: auto;
+	text-align: center;
+
+}

@@ -1,0 +1,21 @@
+body{
+	background: #e3e3e3;
+	font-family: sans-serif; 
+	font-weight: bold;
+}
+
+
+
+.wrap{
+	width: 800px;
+	margin: auto;
+}
+
+blockquote {
+	text-align: center;
+	font-size: 22px;
+	margin-left: 0;
+	font-weight: normal;
+	border:1px solid #FFFFFF
+
+}
