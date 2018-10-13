@@ -2,14 +2,28 @@ body{
 	background: #e3e3e3;
 	font-family: sans-serif; 
 	font-weight: bold;
+	margin: 20px auto;
+	position: relative;
+	min-width: 600px;
+	width: 80%;
 }
 
 .wrap{
-	min-width: 600px;
-	width: 80%;
-	margin: auto;
+	
 	background: white;
 	overflow: hidden;
+}
+
+.logo{
+	background: url(../img/Anchor.jpg) no-repeat ;
+	text-indent: -2000px;
+	width: 50px;
+	height: 50px;
+	position: relative;
+	top: 20px;
+	left: 60px;
+	float: left;
+
 }
 
 h1{
@@ -19,6 +33,8 @@ h1{
 
 .navigation {
 	text-align: center;
+	padding: 40px 0 10px;
+	background: grey;
 }
 
 .navigation ul li {
@@ -48,15 +64,93 @@ aside ul{
 }
 
 .content{
-	background: grey;
 	font-size: 22px;
 	font-weight: normal;
 	float: right;
 	width: 78%;
 }
 
+article {
+	clear: both;
+}
+
+article img{
+	float: right;
+}
+
+.preview{
+	float: left;
+	width: 80%;
+}
+
+.meta {
+	padding: 0;
+	margin: 0;
+}
+
+.meta a {
+	font-style: italic;
+	color: #276056;
+}
+
+.meta li:after{
+	content: "\\";
+	padding:0 5px;
+	color: #999;
+}
+
+.meta li{
+	display: inline;
+	font-size: 14px;
+}
+
+.meta li:last-child:after{
+	content: none;
+}
+
+article h2{
+	text-align: left;
+	font-size: 39px;
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+.post_info{
+	background:#F3F3F3; 
+	color:#999;
+	padding: 1px 4px;
+	margin-top: 0;
+	font-size: 14px;
+	font-style: italic;
+	float: left;
+} 
+
+.post_info a{
+	color: #999;
+	text-decoration: none;
+}
+
+.post_info a:hover{
+	color: black;
+	text-decoration: underline;
+} 
+
+.text{
+	clear: both;
+	color: #575757;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.continue{
+	 float: right; 
+	 font-size: 14px;
+	 color: #276056;
+}
+
 footer{
 	clear: both;
+	background: grey;
 }
 
 
