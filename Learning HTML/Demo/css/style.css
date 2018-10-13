@@ -71,7 +71,8 @@ aside ul{
 }
 
 article {
-	clear: both;
+	margin-bottom: 50px;
+	overflow: hidden;
 }
 
 article img{
